@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tareas</title>  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    
+<div class="container">
+    <div class="perfil"><br><br>
+        <h1>Lista de Tareas </h1>
+    </div>
+
+    <div class="agregar-tarea">
+        <input type="text" id="input" placeholder="agregar una tarea">
+        <i id="boton-enter"class="fas fa-plus-circle"></i>
+    </div>
+
+    
+    <div class="seccion-tarea">
+        <h3>Tareas Pendientes </h3>
+        <ul id="lista">
+        </ul>
+        <li id="contadores">
+            <button id="boton-total">Toltal:0</button>
+            <button id="boton-completadas">Completadas:0</button>
+            <button id="boton-incompletas">Incompletadas:0</button>
+          </li>
+    </div>   
+</div>
+<script src="index.js"></script>
+</body>
+</html>
